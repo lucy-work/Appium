@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511808307653" stop="1511808364175" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User is able to use a gestures</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1511808317813" stop="1511808364167" status="broken">
+            <name>User is able to swipe to open left side menu</name>
+            <title>User is able to swipe to open left side menu</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 263 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Iterman-Liudmyla.local', ip: 'fe80:0:0:0:1050:1586:b148:b06f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=0715f732b4c11436, platform=LINUX, deviceUDID=0715f732b4c11436, appActivity=MainConverterActivity, desired={app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, appActivity=MainConverterActivity, appium-version=3.0.0, platformName=Android, deviceName=Anyname}, appium-version=3.0.0, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G920F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 53f903e3-c3c1-413b-9e90-9288980bd219
+*** Element info: {Using=xpath, value='//android.widget.ImageButton[@content-desc="Close navigation drawer"]'}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 263 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Iterman-Liudmyla.local', ip: 'fe80:0:0:0:1050:1586:b148:b06f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=0715f732b4c11436, platform=LINUX, deviceUDID=0715f732b4c11436, appActivity=MainConverterActivity, desired={app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, appActivity=MainConverterActivity, appium-version=3.0.0, platformName=Android, deviceName=Anyname}, appium-version=3.0.0, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G920F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 53f903e3-c3c1-413b-9e90-9288980bd219
+*** Element info: {Using=xpath, value='//android.widget.ImageButton[@content-desc="Close navigation drawer"]'}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepdefinition.main_menu_steps.iPressOnMenuIcon(main_menu_steps.java:30)
+	at ✽.When I press on back button(gestures.feature:8)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1511808349730" stop="1511808351436" status="passed">
+                    <name>Given I land on the home screen</name>
+                    <title>Given I land on the home screen</title>
+                </step>
+                <step start="1511808351437" stop="1511808354141" status="passed">
+                    <name>When I swipe from left to right</name>
+                    <title>When I swipe from left to right</title>
+                </step>
+                <step start="1511808354142" stop="1511808354339" status="passed">
+                    <name>Then I should see the right side menu</name>
+                    <title>Then I should see the right side menu</title>
+                </step>
+                <step start="1511808354341" stop="1511808354667" status="broken">
+                    <name>When I press on back button</name>
+                    <title>When I press on back button</title>
+                </step>
+                <step start="1511808354669" stop="1511808354675" status="canceled">
+                    <name>Then I see the "Length" as a current unit conversion</name>
+                    <title>Then I see the "Length" as a current unit conversion</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachScreenshot" source="cdda2398-dae3-447d-ba3e-e7ee3d2372dc-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="User is able to swipe to open left side menu"/>
+                <label name="feature" value="User is able to use a gestures"/>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="66476@Iterman-Liudmyla.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="User is able to use a gestures"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

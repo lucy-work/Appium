@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511799959243" stop="1511800024743" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test for Home screen functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1511799969421" stop="1511800024690" status="passed">
+            <name>User is able to clean up the conversion history</name>
+            <title>User is able to clean up the conversion history</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1511800002489" stop="1511800004069" status="passed">
+                    <name>Given I land on the home screen</name>
+                    <title>Given I land on the home screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800004079" stop="1511800006209" status="passed">
+                    <name>When I press on menu icon</name>
+                    <title>When I press on menu icon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800006210" stop="1511800007541" status="passed">
+                    <name>Then I press on "History"</name>
+                    <title>Then I press on "History"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800007542" stop="1511800009693" status="passed">
+                    <name>And I see the "History" as a current unit conversion</name>
+                    <title>And I see the "History" as a current unit conversion</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800009693" stop="1511800009743" status="passed">
+                    <name>Then I should see text "No history right now"</name>
+                    <title>Then I should see text "No history right now"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800009744" stop="1511800011364" status="passed">
+                    <name>When I press on menu icon</name>
+                    <title>When I press on menu icon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800011365" stop="1511800012706" status="passed">
+                    <name>Then I press on "Length"</name>
+                    <title>Then I press on "Length"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800012707" stop="1511800014362" status="passed">
+                    <name>When I type "1" on application keyboard</name>
+                    <title>When I type "1" on application keyboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800014363" stop="1511800015415" status="passed">
+                    <name>When I press on menu icon</name>
+                    <title>When I press on menu icon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800015416" stop="1511800017256" status="passed">
+                    <name>And I press on "History"</name>
+                    <title>And I press on "History"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800017256" stop="1511800019740" status="passed">
+                    <name>Then I verify that 1st result in history list is "Length"</name>
+                    <title>Then I verify that 1st result in history list is "Length"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800019741" stop="1511800020588" status="passed">
+                    <name>And I press delete from history at 1st row</name>
+                    <title>And I press delete from history at 1st row</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511800020589" stop="1511800021304" status="passed">
+                    <name>And I should see text "No history right now"</name>
+                    <title>And I should see text "No history right now"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="User is able to clean up the conversion history"/>
+                <label name="feature" value="Test for Home screen functionality"/>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="65031@Iterman-Liudmyla.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test for Home screen functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

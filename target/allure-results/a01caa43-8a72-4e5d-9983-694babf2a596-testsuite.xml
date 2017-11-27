@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511415694583" stop="1511415735260" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test for Home screen functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1511415694748" stop="1511415735257" status="failed">
+            <name>User is able to switch a value</name>
+            <title>User is able to switch a value</title>
+            <description type="text"></description>
+            <failure>
+                <message>ComparisonFailure: expected:&lt;Centimete[]r&gt; but was:&lt;Centimete[e]r&gt;</message>
+                <stack-trace>org.junit.ComparisonFailure: expected:&lt;Centimete[]r&gt; but was:&lt;Centimete[e]r&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefinition.home_screen_steps.leftUnitPickerValueShouldBeFoot(home_screen_steps.java:43)
+	at ✽.And Left Unit picker value should be Centimeteer(home_screen.feature:71)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1511415723878" stop="1511415724355" status="passed">
+                    <name>Given I land on the home screen</name>
+                    <title>Given I land on the home screen</title>
+                </step>
+                <step start="1511415724360" stop="1511415724663" status="passed">
+                    <name>Then Right Unit picker value should be Centimeter</name>
+                    <title>Then Right Unit picker value should be Centimeter</title>
+                </step>
+                <step start="1511415724664" stop="1511415724992" status="passed">
+                    <name>And Left Unit picker value should be Foot</name>
+                    <title>And Left Unit picker value should be Foot</title>
+                </step>
+                <step start="1511415724995" stop="1511415725237" status="passed">
+                    <name>When I press on Switch button</name>
+                    <title>When I press on Switch button</title>
+                </step>
+                <step start="1511415725238" stop="1511415726138" status="passed">
+                    <name>Then Right Unit picker value should be Foot</name>
+                    <title>Then Right Unit picker value should be Foot</title>
+                </step>
+                <step start="1511415726139" stop="1511415726430" status="failed">
+                    <name>And Left Unit picker value should be Centimeteer</name>
+                    <title>And Left Unit picker value should be Centimeteer</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="createAttachment" source="a9689c32-acd0-49d6-a4a0-3a8791a2e646-attachment.txt" type="text/plain"/>
+            </attachments>
+            <labels>
+                <label name="story" value="User is able to switch a value"/>
+                <label name="feature" value="Test for Home screen functionality"/>
+                <label name="host" value="Iterman-Liudmyla.home"/>
+                <label name="thread" value="55920@Iterman-Liudmyla.home.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test for Home screen functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

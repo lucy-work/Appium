@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511383722188" stop="1511383793314" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User is able to switch a value</name>
+    <title>User is able to switch a value</title>
+    <test-cases>
+        <test-case start="1511383732214" stop="1511383732220" status="passed">
+            <name>Given I land on the home screen</name>
+            <title>Given I land on the home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53486@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383742908" stop="1511383742908" status="passed">
+            <name>Then Right Unit picker value should be Centimeter</name>
+            <title>Then Right Unit picker value should be Centimeter</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53486@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383753222" stop="1511383753245" status="broken">
+            <name>And Left Unit picker value should be Foot</name>
+            <title>And Left Unit picker value should be Foot</title>
+            <failure>
+                <message>IndexOutOfBoundsException: Index: 0, Size: 0</message>
+                <stack-trace>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at stepdefinition.home_screen_steps.leftUnitPickerValueShouldBeFoot(home_screen_steps.java:37)
+	at ✽.And Left Unit picker value should be Foot(home_screen.feature:68)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53486@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383763259" stop="1511383763261" status="pending">
+            <name>When I press on Switch button</name>
+            <title>When I press on Switch button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53486@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383773269" stop="1511383773269" status="pending">
+            <name>Then Right Unit picker value should be Foot</name>
+            <title>Then Right Unit picker value should be Foot</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53486@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383783281" stop="1511383783281" status="pending">
+            <name>And Left Unit picker value should be Centimeteer</name>
+            <title>And Left Unit picker value should be Centimeteer</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53486@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="User is able to switch a value"/>
+        <label name="feature" value="Test for Home screen functionality"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

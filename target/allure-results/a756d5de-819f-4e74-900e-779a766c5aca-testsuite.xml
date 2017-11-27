@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511383047566" stop="1511383125806" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User is able to switch a value</name>
+    <title>User is able to switch a value</title>
+    <test-cases>
+        <test-case start="1511383057591" stop="1511383057594" status="passed">
+            <name>Given I land on the home screen</name>
+            <title>Given I land on the home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53160@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383068273" stop="1511383068273" status="passed">
+            <name>Then Right Unit picker value should be Centimeter</name>
+            <title>Then Right Unit picker value should be Centimeter</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53160@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383078616" stop="1511383078616" status="passed">
+            <name>And Left Unit picker value should be Foot</name>
+            <title>And Left Unit picker value should be Foot</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53160@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383089016" stop="1511383089016" status="passed">
+            <name>When I press on Switch button</name>
+            <title>When I press on Switch button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53160@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383099519" stop="1511383099519" status="passed">
+            <name>Then Right Unit picker value should be Foot</name>
+            <title>Then Right Unit picker value should be Foot</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53160@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511383109969" stop="1511383109987" status="failed">
+            <name>And Left Unit picker value should be Centimeteer</name>
+            <title>And Left Unit picker value should be Centimeteer</title>
+            <failure>
+                <message>AssertionError: text is not correct expected [Centimeteer] but found [Centimeter]</message>
+                <stack-trace>java.lang.AssertionError: text is not correct expected [Centimeteer] but found [Centimeter]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at stepdefinition.home_screen_steps.leftUnitPickerValueShouldBeFoot(home_screen_steps.java:43)
+	at ✽.And Left Unit picker value should be Centimeteer(home_screen.feature:71)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="53160@Iterman-Liudmyla.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="User is able to switch a value"/>
+        <label name="feature" value="Test for Home screen functionality"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

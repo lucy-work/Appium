@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511808653178" stop="1511808706888" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User is able to use a gestures</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1511808663330" stop="1511808706846" status="passed">
+            <name>User is able to swipe to open left side menu</name>
+            <title>User is able to swipe to open left side menu</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1511808696220" stop="1511808697913" status="passed">
+                    <name>Given I land on the home screen</name>
+                    <title>Given I land on the home screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511808697913" stop="1511808700754" status="passed">
+                    <name>When I swipe from left to right</name>
+                    <title>When I swipe from left to right</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511808700755" stop="1511808700955" status="passed">
+                    <name>Then I should see the right side menu</name>
+                    <title>Then I should see the right side menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511808700955" stop="1511808702280" status="passed">
+                    <name>When I press on back button</name>
+                    <title>When I press on back button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1511808702281" stop="1511808703471" status="passed">
+                    <name>Then I see the "Length" as a current unit conversion</name>
+                    <title>Then I see the "Length" as a current unit conversion</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="User is able to swipe to open left side menu"/>
+                <label name="feature" value="User is able to use a gestures"/>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="66738@Iterman-Liudmyla.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="User is able to use a gestures"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

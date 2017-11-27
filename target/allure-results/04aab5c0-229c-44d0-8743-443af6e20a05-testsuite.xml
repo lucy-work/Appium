@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511799125116" stop="1511799183908" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test for Home screen functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1511799135280" stop="1511799183904" status="broken">
+            <name>User is able to clean up the conversion history</name>
+            <title>User is able to clean up the conversion history</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 178 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Iterman-Liudmyla.local', ip: 'fe80:0:0:0:1050:1586:b148:b06f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=0715f732b4c11436, platform=LINUX, deviceUDID=0715f732b4c11436, appActivity=MainConverterActivity, desired={app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, appActivity=MainConverterActivity, appium-version=3.0.0, platformName=Android, deviceName=Anyname}, appium-version=3.0.0, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G920F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 9ac43882-9559-4ade-8f3b-b2e64cc5f06c
+*** Element info: {Using=xpath, value=//*[@text='Length']}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 178 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Iterman-Liudmyla.local', ip: 'fe80:0:0:0:1050:1586:b148:b06f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=0715f732b4c11436, platform=LINUX, deviceUDID=0715f732b4c11436, appActivity=MainConverterActivity, desired={app=/Users/liudmylaiterman/Documents/android_tests/app/PreciseUnitConversion.apk, appPackage=com.ba.universalconverter, appActivity=MainConverterActivity, appium-version=3.0.0, platformName=Android, deviceName=Anyname}, appium-version=3.0.0, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G920F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 9ac43882-9559-4ade-8f3b-b2e64cc5f06c
+*** Element info: {Using=xpath, value=//*[@text='Length']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepdefinition.main_menu_steps.iPressOnMyConversionsButton(main_menu_steps.java:35)
+	at ✽.Then I press on "Length"(home_screen.feature:78)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1511799168539" stop="1511799169800" status="passed">
+                    <name>Given I land on the home screen</name>
+                    <title>Given I land on the home screen</title>
+                </step>
+                <step start="1511799169807" stop="1511799170808" status="passed">
+                    <name>When I press on menu icon</name>
+                    <title>When I press on menu icon</title>
+                </step>
+                <step start="1511799170809" stop="1511799172075" status="passed">
+                    <name>Then I press on "History"</name>
+                    <title>Then I press on "History"</title>
+                </step>
+                <step start="1511799172076" stop="1511799174142" status="passed">
+                    <name>And I see the "History" as a current unit conversion</name>
+                    <title>And I see the "History" as a current unit conversion</title>
+                </step>
+                <step start="1511799174142" stop="1511799174279" status="passed">
+                    <name>Then I should see text "No history right now"</name>
+                    <title>Then I should see text "No history right now"</title>
+                </step>
+                <step start="1511799174280" stop="1511799174524" status="broken">
+                    <name>Then I press on "Length"</name>
+                    <title>Then I press on "Length"</title>
+                </step>
+                <step start="1511799174525" stop="1511799174529" status="canceled">
+                    <name>When I type "1" on application keyboard</name>
+                    <title>When I type "1" on application keyboard</title>
+                </step>
+                <step start="1511799174530" stop="1511799174533" status="canceled">
+                    <name>When I press on menu icon</name>
+                    <title>When I press on menu icon</title>
+                </step>
+                <step start="1511799174534" stop="1511799174534" status="canceled">
+                    <name>And I press on "History"</name>
+                    <title>And I press on "History"</title>
+                </step>
+                <step start="1511799174535" stop="1511799174538" status="canceled">
+                    <name>Then I verify that 1st result in history list is "Length"</name>
+                    <title>Then I verify that 1st result in history list is "Length"</title>
+                </step>
+                <step start="1511799174539" stop="1511799174539" status="canceled">
+                    <name>And I press delete from history at 1st row</name>
+                    <title>And I press delete from history at 1st row</title>
+                </step>
+                <step start="1511799174540" stop="1511799174540" status="canceled">
+                    <name>And I should see text "No history right now"</name>
+                    <title>And I should see text "No history right now"</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachScreenshot" source="c8cbbf02-42cc-4de4-94a8-1e99547c6db4-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="User is able to clean up the conversion history"/>
+                <label name="feature" value="Test for Home screen functionality"/>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="64488@Iterman-Liudmyla.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test for Home screen functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511810980695" stop="1511811024751" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User is able to use a gestures</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1511810990873" stop="1511811021133" status="pending">
+            <name>User is able to swipe to open left side menu</name>
+            <title>User is able to swipe to open left side menu</title>
+            <description type="text"></description>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1511811020096" stop="1511811020113" status="canceled">
+                    <name>Given I land on the home screen</name>
+                    <title>Given I land on the home screen</title>
+                </step>
+                <step start="1511811020114" stop="1511811020114" status="canceled">
+                    <name>When I swipe from left to right</name>
+                    <title>When I swipe from left to right</title>
+                </step>
+                <step start="1511811020115" stop="1511811020115" status="canceled">
+                    <name>Then I should see the right side menu</name>
+                    <title>Then I should see the right side menu</title>
+                </step>
+                <step start="1511811020116" stop="1511811020116" status="canceled">
+                    <name>When I press on back button</name>
+                    <title>When I press on back button</title>
+                </step>
+                <step start="1511811020117" stop="1511811020117" status="canceled">
+                    <name>Then I see the "Length" as a current unit conversion</name>
+                    <title>Then I see the "Length" as a current unit conversion</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="User is able to swipe to open left side menu"/>
+                <label name="feature" value="User is able to use a gestures"/>
+                <label name="host" value="Iterman-Liudmyla.local"/>
+                <label name="thread" value="68227@Iterman-Liudmyla.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1511810980695" stop="1511811024746" status="broken">
+            <name>User is able to use a gestures</name>
+            <title>User is able to use a gestures</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="User is able to use a gestures"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

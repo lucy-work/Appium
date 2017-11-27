@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: framework.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.295 s <<< FAILURE! - in framework.TestRunner
+And Left Unit picker value should be Centimeteer(Scenario: User is able to switch a value)  Time elapsed: 0.013 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Centimete[]r> but was:<Centimete[e]r>
+
+Scenario: User is able to switch a value  Time elapsed: 0.013 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Centimete[]r> but was:<Centimete[e]r>
+

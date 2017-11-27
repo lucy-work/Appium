@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: User is able to switch a value
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.928 sec <<< FAILURE! - in Scenario: User is able to switch a value
+Scenario: User is able to switch a value  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: text is not correct expected [Centimeteer] but found [Centimeter]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at stepdefinition.home_screen_steps.leftUnitPickerValueShouldBeFoot(home_screen_steps.java:43)
+	at ✽.And Left Unit picker value should be Centimeteer(home_screen.feature:71)
+
